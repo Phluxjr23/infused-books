@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:ghast_tear",
+    "minecraft:gold_ingot",
+    "minecraft:book",
+    "minecraft:experience_bottle"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:mending": 1
+      }
+    }
+  }
+}

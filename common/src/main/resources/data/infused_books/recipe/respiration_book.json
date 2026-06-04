@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:turtle_scute",
+    "minecraft:bubble_coral",
+    "minecraft:book",
+    "minecraft:experience_bottle"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:respiration": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:spider_eye",
+    "minecraft:string",
+    "minecraft:book",
+    "minecraft:experience_bottle"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:bane_of_arthropods": 1
+      }
+    }
+  }
+}

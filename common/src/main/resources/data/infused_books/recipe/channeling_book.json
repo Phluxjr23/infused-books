@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:lightning_rod",
+    "minecraft:copper_ingot",
+    "minecraft:book",
+    "minecraft:experience_bottle"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:channeling": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "infused_books",
+  "version": "${version}",
+  "name": "infused books",
+  "description": "infused books adds crafting recipes to enchantment books, such as a diamond + book + ender pearl + bottle o' enchanting for fortune!",
+  "authors": [
+    "phluxjr"
+  ],
+  "contact": {
+    "homepage": "https://phluxjr.net",
+    "sources": "https://github.com/Phluxjr23/infused-books",
+    "issues": "https://github.com/Phluxjr23/infused-books/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/infused_books/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.phluxjr.infused_books.fabric.ExampleModFabric"
+    ],
+    "client": [
+      "net.phluxjr.infused_books.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "infused_books.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "architectury": ">=18.0.6",
+    "fabric-api": "*"
+  }
+}

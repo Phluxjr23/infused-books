@@ -1,0 +1,39 @@
+modLoader = "javafml"
+loaderVersion = "[10,)"
+license = "GPL-3.0-or-later"
+issueTrackerURL = "https://github.com/Phluxjr23/infused-books/issues"
+
+[[mods]]
+modId = "infused_books"
+version = "${version}"
+displayName = "infused books"
+authors = "phluxjr"
+description = '''
+infused books adds crafting recipes to enchantment books, such as a diamond + book + ender pearl + bottle o' enchanting for fortune!
+'''
+logoFile = "assets/infused_books/icon.png"
+displayURL = "https://github.com/Phluxjr23/infused-books"
+
+[[dependencies.infused_books]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.10,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.infused_books]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.10,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.infused_books]]
+modId = "architectury"
+type = "required"
+versionRange = "[18.0.6,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "infused_books.mixins.json"
