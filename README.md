@@ -111,7 +111,9 @@ works with any mod that doesn't mess with the vanilla crafting system. fully com
 ## links
 
 -[modrinth](https://modrinth.com/mod/infused-books)
+
 -[github](https://github.com/Phluxjr23/infused-books)
+
 - [issues / suggestions](https://github.com/Phluxjr23/infused-books/issues)
 
 ---
